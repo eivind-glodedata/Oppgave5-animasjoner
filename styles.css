@@ -39,6 +39,8 @@
 .dot:hover {
     height: 500px;
     transform: rotate(900deg);
+    transform: scaleY(3);
+    transform: scaleX(.9);
 }
 
 .hero {
@@ -49,6 +51,31 @@
 body {
     background-color: silver;
 }
+
+.overskrift {
+    color:blue;
+    transition-property: color;
+    transition-duration: 2s;
+    animation: overskriftanimasjon;
+    animation-duration: 50s;
+}
+
+.overskrift:hover {
+    color:aquamarine;
+}
+
+@keyframes overskriftanimasjon {
+    0% {translate: -400px;}
+    10% {translate: -700px}
+    20% {transform: translateY(300px);}
+    30% {transform: rotate(40deg)}
+    40% {font-size: 55px;}
+    50% {transform: skewX(200deg)}
+    100% {translate: 10px;}
+
+}
+
+
 
   
   /*The asterisk (*) selector in CSS, also known as the universal selector, is a powerful tool used to target and apply styles to all elements on a webpage, regardless of their type or hierarchy. This selector is particularly useful for global styling, such as resetting margins or applying uniform properties across the entire document.*/
