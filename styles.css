@@ -1,0 +1,42 @@
+.typewriter {
+    font-family: monospace;
+    overflow: hidden; /* Sørger for at innholdet ikke blir vist før animasjonen */
+    border-right: .15em solid orange; /*Cursor effect*/
+    white-space: pre;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    /*animation: typing 4s steps(30, end), blik-caret .75s step-end infinite;*/
+    animation: typing;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+ }
+
+@keyframes typing {
+    from {width: 0%;}
+    to {width: 80%;}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+    50% {border-color: orange;}
+}
+
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #e23333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hero {
+    display: flex;
+}
+
+  
+  /*The asterisk (*) selector in CSS, also known as the universal selector, is a powerful tool used to target and apply styles to all elements on a webpage, regardless of their type or hierarchy. This selector is particularly useful for global styling, such as resetting margins or applying uniform properties across the entire document.*/
+
+/*  * { color:#421717; text-decoration: none;}*/
