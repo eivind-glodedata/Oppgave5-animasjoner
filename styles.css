@@ -28,10 +28,11 @@
 .dot {
     height: 200px;
     width: 300px;
+    cursor: pointer;
     background-color: #e23333;
     border-radius: 50%;
     display: inline-block;
-    
+    text-align: center;
     transition-property: height;
     transition-duration: 5s;
 }
@@ -41,6 +42,7 @@
     transform: rotate(900deg);
     transform: scaleY(3);
     transform: scaleX(.9);
+    background-color: chartreuse;
 }
 
 .hero {
@@ -58,6 +60,7 @@ body {
     transition-duration: 2s;
     animation: overskriftanimasjon;
     animation-duration: 50s;
+    cursor: progress;
 }
 
 .overskrift:hover {
@@ -75,6 +78,37 @@ body {
 
 }
 
+.print {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.print:hover {
+    animation-name: shake;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    cursor: crosshair;
+}
+
+@keyframes shake {
+        0% {transform: translate(1px, 1px) rotate(0deg);}
+        10% {transform: translate(-1px, -2px) rotate(-1deg);}
+        20% {transform: translate(-3px, 0px) rotate(1deg);}
+        30% {transform: translate(3px, 2px) rotate(0deg);}
+        40% {transform: translate(1px, -1px) rotate(1deg);}
+        50% {transform: translate(-1px, 2px) rotate(-1deg);}
+        60% {transform: translate(-3px, 1px) rotate(0deg);}
+        70% {transform: translate(3px, -1px) rotate(-1deg);}
+        80% {transform: translate(-1px, 1px) rotate(1deg);}
+        90% {transform: translate(1px, 2px) rotate(0deg);}
+        100% {transform: translate(1px, -2px) rotate(-1deg);}
+}
+
+#print3 {
+    text-shadow: 1px 1px red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
 
 
   
