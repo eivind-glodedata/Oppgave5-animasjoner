@@ -13,89 +13,92 @@
   <!-- body body det som skal synes -->
 
   <body>
-    <header>
-      <nav>
-        <a href="">Hjem</a>
-        <a href="">Om meg</a>
-        <a href="">Prosjekter</a>
-      </nav>
-    </header>
+    <body>
+        <header>
+          <nav>
+            <a href="">Hjem</a>
+            <a href="">Om meg</a>
+            <a href="">Prosjekter</a>
+          </nav>
+        </header>
+    
+        <main>
+        <section class="hero">
+        <h1 class="overskrift">Animasjonsøvelse!</h1>
+    
+    
+    <div class="dot"></div>
+    
+    
+    
+            <p>La oss lage en tekst som skrives ut som en skrivemaskin! Nei, det gikk ikke uten JavaScript, kan ikke skrive en og en bokstav på flere linjer med CSS.</p>
+            <p class="typewriter">
+    Arma virumque canō, Trōiae quī prīmus ab ōrīs
+    Ītaliam, fātō profugus, Lāvīniaque vēnit
+    lītora, multum ille et terrīs iactātus et altō
+    vī superum saevae memorem Iūnōnis ob īram;
+    multa quoque et bellō passus, dum conderet urbem,               5
+    inferretque deōs Latiō, genus unde Latīnum,
+    Albānīque patrēs, atque altae moenia Rōmae.
+    
+    Mūsa, mihī causās memorā, quō nūmine laesō,
+    quidve dolēns, rēgīna deum tot volvere cāsūs
+    īnsīgnem pietāte virum, tot adīre labōrēs                                   10
+    impulerit. Tantaene animīs caelestibus īrae?
+    
+    Urbs antīqua fuit, Tyriī tenuēre colōnī,
+    Karthāgō, Ītaliam contrā Tiberīnaque longē
+    ōstia, dīves opum studiīsque asperrima bellī,
+    quam Iūnō fertur terrīs magis omnibus ūnam                           15
+    posthabitā coluisse Samō; hīc illius arma,
+    hīc currus fuit; hōc rēgnum dea gentibus esse,
+    sī quā Fāta sinant, iam tum tenditque fovetque.
+    Prōgeniem sed enim Trōiānō ā sanguine dūcī
+    audierat, Tyriās olim quae verteret arcēs;                                   20
+    hinc populum lātē regem bellōque superbum
+    ventūrum excidiō Libyae: sīc volvere Parcās.
+    Id metuēns, veterisque memor Sāturnia bellī,
+    prīma quod ad Trōiam prō cārīs gesserat Argīs—
+    necdum etiam causae īrārum saevīque dolōrēs                          25
+    exciderant animō: manet altā mente repostum
+    iūdicium Paridis sprētaeque iniūria fōrmae,
+    et genus invīsum, et raptī Ganymēdis honōrēs.
+    Hīs accēnsa super, iactātōs aequore tōtō
+    Trōas, rēliquiās Danaum atque immītis Achillī,                          30
+    arcēbat longē Latiō, multōsque per annōs
+    errābant, āctī Fātīs, maria omnia circum.
+    Tantae mōlis erat Rōmānam condere gentem!
+    
+    Vix e conspectu Siculae telluris in altum
+    vela dabant laeti, et spumas salis aere ruebant,                          35
+    cum Iuno, aeternum servans sub pectore volnus,
+    haec secum: 'Mene incepto desistere victam,
+    nec posse Italia Teucrorum avertere regem?
+    Quippe vetor fatis. Pallasne exurere classem
+    Argivom atque ipsos potuit submergere ponto,               40
+    unius ob noxam et furias Aiacis Oilei?
+    Ipsa, Iovis rapidum iaculata e nubibus ignem,
+    disiecitque rates evertitque aequora ventis,
+    illum expirantem transfixo pectore flammas
+    turbine corripuit scopuloque infixit acuto.               45
+    Ast ego, quae divom incedo regina, Iovisque
+    et soror et coniunx, una cum gente tot annos
+    bella gero! Et quisquam numen Iunonis adoret
+    praeterea, aut supplex aris imponet honorem?'
+            </p>
+          </section>
+<h2>La oss lage en skrivemaskin som funker, og skriver god latin, ikke lorem ipsum!</h2>
+    <p id="print"></p>
 
-    <main>
-    <section class="hero">
-    <h1 class="overskrift">Animasjonsøvelse!</h1>
-
-
-<div class="dot"></div>
+    <h2>Input en tekst til å bli skrevet:</h2>
+    <input type="text" id="userInput" placeholder="skriv inn tekst">
+    <button id="knapp">Submit</button>
+    <p id="print2"></p>
 
 
 
-        <p>La oss lage en tekst som skrives ut som en skrivemaskin! Nei, det gikk ikke uten JavaScript, kan ikke skrive en og en bokstav på flere linjer med CSS.</p>
-        <p class="typewriter">
-Arma virumque canō, Trōiae quī prīmus ab ōrīs
-Ītaliam, fātō profugus, Lāvīniaque vēnit
-lītora, multum ille et terrīs iactātus et altō
-vī superum saevae memorem Iūnōnis ob īram;
-multa quoque et bellō passus, dum conderet urbem,               5
-inferretque deōs Latiō, genus unde Latīnum,
-Albānīque patrēs, atque altae moenia Rōmae.
-
-Mūsa, mihī causās memorā, quō nūmine laesō,
-quidve dolēns, rēgīna deum tot volvere cāsūs
-īnsīgnem pietāte virum, tot adīre labōrēs                                   10
-impulerit. Tantaene animīs caelestibus īrae?
-
-Urbs antīqua fuit, Tyriī tenuēre colōnī,
-Karthāgō, Ītaliam contrā Tiberīnaque longē
-ōstia, dīves opum studiīsque asperrima bellī,
-quam Iūnō fertur terrīs magis omnibus ūnam                           15
-posthabitā coluisse Samō; hīc illius arma,
-hīc currus fuit; hōc rēgnum dea gentibus esse,
-sī quā Fāta sinant, iam tum tenditque fovetque.
-Prōgeniem sed enim Trōiānō ā sanguine dūcī
-audierat, Tyriās olim quae verteret arcēs;                                   20
-hinc populum lātē regem bellōque superbum
-ventūrum excidiō Libyae: sīc volvere Parcās.
-Id metuēns, veterisque memor Sāturnia bellī,
-prīma quod ad Trōiam prō cārīs gesserat Argīs—
-necdum etiam causae īrārum saevīque dolōrēs                          25
-exciderant animō: manet altā mente repostum
-iūdicium Paridis sprētaeque iniūria fōrmae,
-et genus invīsum, et raptī Ganymēdis honōrēs.
-Hīs accēnsa super, iactātōs aequore tōtō
-Trōas, rēliquiās Danaum atque immītis Achillī,                          30
-arcēbat longē Latiō, multōsque per annōs
-errābant, āctī Fātīs, maria omnia circum.
-Tantae mōlis erat Rōmānam condere gentem!
-
-Vix e conspectu Siculae telluris in altum
-vela dabant laeti, et spumas salis aere ruebant,                          35
-cum Iuno, aeternum servans sub pectore volnus,
-haec secum: 'Mene incepto desistere victam,
-nec posse Italia Teucrorum avertere regem?
-Quippe vetor fatis. Pallasne exurere classem
-Argivom atque ipsos potuit submergere ponto,               40
-unius ob noxam et furias Aiacis Oilei?
-Ipsa, Iovis rapidum iaculata e nubibus ignem,
-disiecitque rates evertitque aequora ventis,
-illum expirantem transfixo pectore flammas
-turbine corripuit scopuloque infixit acuto.               45
-Ast ego, quae divom incedo regina, Iovisque
-et soror et coniunx, una cum gente tot annos
-bella gero! Et quisquam numen Iunonis adoret
-praeterea, aut supplex aris imponet honorem?'
-        </p>
-      </section>
-      <section>
-        <h2>Underoverskrift: Om Meg</h2>
-      </section>
-      <section>
-        <h2>Prosjekter</h2>
-      </section>
-    </main>
-
-    <footer>
-      <h3>Laget av Eivind</h3>
-    </footer>
-  </body>
-</html>
+        <footer>
+          <h3>Laget av Eivind</h3>
+        </footer>
+      </body>
+    </html>
