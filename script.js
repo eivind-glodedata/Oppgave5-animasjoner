@@ -4,9 +4,9 @@ function typeText(elementId, text, speed) {
   
     function type() {
       if (i < text.length) {
-        element.innerHTML += text.charAt(i);
+        element.innerHTML += text.charAt(i); //legger til tegn for tegn i elementet
         i++;
-        setTimeout(type, speed);
+        setTimeout(type, speed); //legger inn pause
       }
     }
   

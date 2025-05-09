@@ -109,9 +109,3 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
 }
-
-
-  
-  /*The asterisk (*) selector in CSS, also known as the universal selector, is a powerful tool used to target and apply styles to all elements on a webpage, regardless of their type or hierarchy. This selector is particularly useful for global styling, such as resetting margins or applying uniform properties across the entire document.*/
-
-/*  * { color:#421717; text-decoration: none;}*/
